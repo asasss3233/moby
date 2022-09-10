@@ -45,7 +45,6 @@ img {
 html, body {
     height: 100vh;
     overflow: hidden;
-    background: #fbfbfb;
     overscroll-behavior-y: none;
 }
 
@@ -59,4 +58,8 @@ html, body {
     position: relative;
     overflow: hidden;
     height: calc(100vh + 60px);
+}
+
+#modular-content {
+    opacity: 0;
 }

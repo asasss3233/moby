@@ -1,23 +1,25 @@
-let bottom_popup_wrapper = document.getElementById("bottom-popup-wrapper")
 
-let ignited = false
+window.scrollable = document.getElementById("scrollable-area")
+window.bottom_popup_wrapper = document.getElementById("bottom-popup-wrapper")
 
-let drag = false
-let opened = false
-let drag_inaccuracy = 0
-let drag_start_timestamp = 0
-let previous_drag_position = 0
+window.ignited = false
 
-let first_touch = 0
-let last_touch = 0
-let stable_position = 0
+window.drag = false
+window.opened = false
+window.drag_inaccuracy = 0
+window.drag_start_timestamp = 0
+window.previous_drag_position = 0
+
+window.first_touch = 0
+window.last_touch = 0
+window.stable_position = 0
 
 
-function set_stable_position() {
+window.set_stable_position = () => {
     stable_position = bottom_popup_wrapper.getBoundingClientRect().top
 }
 
-function open_bottom_popup() {
+window.open_bottom_popup = () => {
     if (!ignited) {
         ignited = true
         animate_css(bottom_popup_wrapper, [{transform: `translateY(${innerHeight - 230}px)`}], {
@@ -28,7 +30,7 @@ function open_bottom_popup() {
     }
 }
 
-function on_drag_end() {
+window.on_drag_end = () => {
     let current_time = new Date().getTime()
     let dragging_up = first_touch > last_touch
 
@@ -104,7 +106,7 @@ bottom_popup_wrapper.addEventListener("touchmove", (e) => {
     }
 })
 
-function dim_preview_animation() {
+window.dim_preview_animation = () => {
     if (ignited) {
         set_root_var("--preview-dimming", (Math.pow(1 - (bottom_popup_wrapper.getBoundingClientRect().top + 230) / innerHeight, 1.05) / 0.7160069217846263) || 0)
         return requestAnimationFrame(dim_preview_animation)

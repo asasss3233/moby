@@ -1,4 +1,4 @@
-let events = []
+window.events = []
 
 ymaps.ready(function () {
     let myMap = new ymaps.Map('satellite-map', {
@@ -21,6 +21,6 @@ ymaps.ready(function () {
     })
 
 
-    myMap.setType("yandex#satellite")
+    myMap.setType("yandex#hybrid")
     myMap.geoObjects.add(myPlacemark)
-});
+})
