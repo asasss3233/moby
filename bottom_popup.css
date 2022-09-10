@@ -8,7 +8,9 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: hidden;
-    position: relative;
+    position: fixed;
+    left: 0;
+    top: 0;
     transform: translateY(100vh);
 }
 

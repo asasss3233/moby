@@ -67,25 +67,25 @@ function on_drag_end() {
     drag_start_timestamp = 0
 }
 
-bottom_popup_wrapper.ontouchstart = (e) => {
+bottom_popup_wrapper.addEventListener("touchstart", (e) => {
     drag_inaccuracy = e.touches[0].clientY - bottom_popup_wrapper.getBoundingClientRect().top
     if (drag_inaccuracy < 80 && drag_inaccuracy > 25) {
         drag = true
         drag_start_timestamp = new Date().getTime()
     }
-}
+})
 
-bottom_popup_wrapper.ontouchend = () => {
+bottom_popup_wrapper.addEventListener("touchend", () => {
     on_drag_end()
     drag = false
-}
+})
 
-bottom_popup_wrapper.ontouchcancel = () => {
+bottom_popup_wrapper.addEventListener("touchcancel", () => {
     on_drag_end()
     drag = false
-}
+})
 
-bottom_popup_wrapper.ontouchmove = (e) => {
+bottom_popup_wrapper.addEventListener("touchmove", (e) => {
     let ny = e.touches[0].clientY
     if (drag) {
         if (first_touch === 0) {
@@ -97,13 +97,12 @@ bottom_popup_wrapper.ontouchmove = (e) => {
         let y = ny - drag_inaccuracy
         if (opened && (first_touch > last_touch)) {
             bottom_popup_wrapper.style.transform = `translateY(25px)`
-            console.log("kav o blyat")
         } else {
             previous_drag_position = y
             bottom_popup_wrapper.style.transform = `translateY(${y}px)`
         }
     }
-}
+})
 
 function dim_preview_animation() {
     if (ignited) {

@@ -1,33 +1,19 @@
-let overlays = 0
+let opened_sliding_overlay_index = 0 // maximum can be 2 since there are only one case in which it is possible that 2 sliding overlays are opened simoultaneously one after the other
 
-function close_sliding_overlay(id) {
-    let el = document.querySelector(`.so-${id}`)
-    animate_css(el, [{transform: "translateX(100vw)"}], {duration: 200}, () => {
-        el.remove()
-        overlays--
-    })
+function pop_sliding_overlay() {
+    opened_sliding_overlay_index--
+    animate_css(document.querySelectorAll(".sliding-overlay")[opened_sliding_overlay_index], [{transform: "translateX(100vw)"}], {duration: 200})
 }
 
-function open_sliding_overlay(logo_url, channel_name, subscribers_amount, description) {
-    let sliding_overlay = `
-    <div id="sliding-overlay" class="so-${overlays}">
-        <div id="sliding-overlay-wrapper">
-            <div id="back-button" onclick="close_sliding_overlay(${overlays})"><p>􀱍</p></div>
-            <div class="brief-channel">
-                <div id="icon"><img src="${logo_url}" alt=""></div>
-                <h3 id="channel">${channel_name}</h3>
-                <p id="subscriptions">${subscribers_amount}</p>
-            </div>
-            <div class="sliding-tabs">
-                <p id="tab-1-heading" class="active">описание</p>
-                <p id="tab-1-content">мероприятия</p>
-            </div>
-            <div class="tab-content">
-                <p>${description}</p>
-            </div>
-        </div>
-    </div>`
+function open_sliding_overlay(logo_url, channel_name, subscribers_amount, sliding_tabs_labels, description) {
+    document.querySelectorAll(".brief-channel div img")[opened_sliding_overlay_index].src = logo_url
+    document.querySelectorAll(".brief-channel h3")[opened_sliding_overlay_index].innerText = channel_name
+    document.querySelectorAll(".brief-channel p")[opened_sliding_overlay_index].innerText = subscribers_amount
+    document.querySelectorAll(".tab-content p")[opened_sliding_overlay_index].innerText = description
 
-    document.body.innerHTML = sliding_overlay + document.body.innerHTML
-    overlays++
+    document.querySelectorAll(".sliding-tabs p")[opened_sliding_overlay_index].innerText = sliding_tabs_labels[0]
+    document.querySelectorAll(".sliding-tabs p")[opened_sliding_overlay_index + 1].innerText = sliding_tabs_labels[1]
+
+    animate_css(document.querySelectorAll(".sliding-overlay")[opened_sliding_overlay_index], [{transform: "translateX(0vw)"}], {duration: 200, delay: 50})
+    opened_sliding_overlay_index++
 }

@@ -28,7 +28,7 @@
                                 <img src="/loc-images/pf1.png" alt="">
                                 <img src="/loc-images/pf2.png" alt="">
                             </div>
-                            <div class="channel" onclick="open_sliding_overlay('/loc-images/logo.png', 'Pink Floyd', '3,27M подписчиков', 'Группа была основана в 1965 году однокурсниками по архитектурному факультету Лондонского политехнического института Ричардом Райтом, Роджером Уотерсом, Ником Мейсоном (ударные) и их другом из Кембриджа Сидом Барреттом (вокал, гитара). Первоначальное название «The Pink Floyd Sound» было придумано лидером группы и автором большинства текстов раннего периода — Барреттом.')">
+                            <div class="channel" onclick="open_sliding_overlay('/loc-images/logo.png', 'Pink Floyd', '3,27M подписчиков', ['описание', 'коментарии'], 'Группа была основана в 1965 году однокурсниками по архитектурному факультету Лондонского политехнического института Ричардом Райтом, Роджером Уотерсом, Ником Мейсоном (ударные) и их другом из Кембриджа Сидом Барреттом (вокал, гитара). Первоначальное название «The Pink Floyd Sound» было придумано лидером группы и автором большинства текстов раннего периода — Барреттом.')">
                                 <img src="/loc-images/logo.png" alt="">
                                 <p>Pink Floyd – 3,27M</p>
                             </div>
@@ -49,6 +49,42 @@
             <div id="familiar"><p>􀉬</p></div>
             <div id="map" class="chosen"><p>􀙋</p></div>
             <div id="profile"><p>􀉪</p></div>
+        </div>
+
+        <div class="sliding-overlay">
+            <div class="sliding-overlay-wrapper">
+                <div class="back-button" onclick="pop_sliding_overlay(this)"><p>􀱍</p></div>
+                <div class="brief-channel">
+                    <div><img src="" alt=""></div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="sliding-tabs">
+                    <p class="active"></p>
+                    <p></p>
+                </div>
+                <div class="tab-content">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sliding-overlay">
+            <div class="sliding-overlay-wrapper">
+                <div class="back-button" onclick="pop_sliding_overlay(this)"><p>􀱍</p></div>
+                <div class="brief-channel">
+                    <div><img src="" alt=""></div>
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="sliding-tabs">
+                    <p class="active"></p>
+                    <p></p>
+                </div>
+                <div class="tab-content">
+                    <p></p>
+                </div>
+            </div>
         </div>
         <script src="main.js" defer></script>
         <script src="bottom_bar.js" defer></script>
