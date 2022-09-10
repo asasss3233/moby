@@ -7,7 +7,8 @@
     display: flex;
     position: fixed;
     background: #fff;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     justify-content: center;
     transform: translateX(100vw);
 }
@@ -96,6 +97,10 @@
     left: 0;
     background: #000;
     position: absolute;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content {
+    padding-bottom: 40px;
 }
 
 .sliding-overlay .sliding-overlay-wrapper .tab-content p {
