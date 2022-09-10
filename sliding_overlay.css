@@ -1,17 +1,21 @@
 #sliding-overlay {
     top: 0;
+    left: 0;
     z-index: 100;
     width: 100vw;
     height: 100vh;
+    display: flex;
     background: #fff;
     overflow: hidden;
-    position: absolute;
+    justify-content: center;
+    position: fixed;
     transform: translateX(0);
     animation: translation .3s;
 }
 
 #sliding-overlay #sliding-overlay-wrapper {
     overflow-y: auto;
+    width: 90%;
     position: relative;
 }
 
