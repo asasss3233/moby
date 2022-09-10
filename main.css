@@ -30,21 +30,22 @@ img {
     pointer-events: none;
 }
 
-html, body {
-    height: 100vh;
-    overflow: hidden;
-    background: #fbfbfb;
-    overscroll-behavior-y: none;
-}
-
 #scrollable-area {
     top: 0;
     left: 0;
+    z-index: 30;
     width: 100vw;
     height: 100vh;
     overflow: auto;
     position: absolute;
     transition: filter .3s;
+    overscroll-behavior-y: none;
+}
+
+html, body {
+    height: 100vh;
+    overflow: hidden;
+    background: #fbfbfb;
     overscroll-behavior-y: none;
 }
 

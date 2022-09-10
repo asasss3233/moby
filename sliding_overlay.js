@@ -1,10 +1,15 @@
 let overlays = 0
 
-function new_sliding_overlay(logo_url, channel_name, subscribers_amount) {
+function close_sliding_overlay(id) {
+    animate_css(document.querySelector(`.so-${id}`), [{transform: "translateX(100vw)"}])
+    overlays--
+}
+
+function open_sliding_overlay(logo_url, channel_name, subscribers_amount) {
     let sliding_overlay = `
     <div id="sliding-overlay" class="so-${overlays}">
         <div id="sliding-overlay-wrapper">
-            <div id="back-button"><p>􀱍</p></div>
+            <div id="back-button" onclick="close_sliding_overlay(${overlays})"><p>􀱍</p></div>
             <div id="icon"><img src="${logo_url}" alt=""></div>
             <h3 id="channel">${channel_name}</h3>
             <p id="subscriptions">${subscribers_amount}</p>
