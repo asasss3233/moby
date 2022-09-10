@@ -33,7 +33,7 @@ img {
 #scrollable-area {
     top: 0;
     left: 0;
-    z-index: 30;
+    z-index: 10;
     width: 100vw;
     height: 100vh;
     overflow: auto;
