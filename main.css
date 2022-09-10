@@ -53,3 +53,10 @@ html, body {
     filter: blur(20px);
     background: rgba(0, 0, 0, .05);
 }
+
+#scrollable-area #satellite-map {
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh + 60px);
+}

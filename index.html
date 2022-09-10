@@ -11,6 +11,9 @@
 
         <link rel="stylesheet" href="sliding_overlay.css">
 
+        <link rel="preconnect" href="//api-maps.yandex.ru">
+        <link rel="dns-prefetch" href="//api-maps.yandex.ru">
+
         <script src="https://api-maps.yandex.ru/2.1/?apikey=40d1649f-0493-4b70-98ba-98533de7710b&lang=ru_RU"></script>
         <meta content="width=device-width, initial-scale=1" name="viewport">
     </head>
@@ -44,10 +47,7 @@
             </div>
         </div>
         <div id="scrollable-area">
-            <!--
-            <button onclick="ignite_bottom_popup()" style="position:relative;z-index:10;">kavo?</button>
-            <img src="loc-images/map.png" alt="" style="width: 100vw;height:100vh;position:absolute;top:0;left:0;z-index:0">
-            -->
+            <div id="satellite-map"></div>
         </div>
         <div id="bottom-bar">
             <div id="familiar"><p>􀉬</p></div>
@@ -97,11 +97,11 @@
 
         <script>
             ymaps.ready(init);
-            function init(){
-                let myMap = new ymaps.Map("scrollable-area", {
+            function init() {
+                let myMap = new ymaps.Map("satellite-map", {
                     center: [55.76, 37.64],
                     controls: [],
-                    zoom: 7
+                    zoom: 17
                 });
                 myMap.setType("yandex#satellite")
             }
