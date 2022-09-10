@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a355d1b2-79f9-48fd-8720-ce85e1c4fe64" name="Changes" comment="jj">
-      <change afterPath="$PROJECT_DIR$/loc-images/themoon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loc-images/thewall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loc-images/sydbarret.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite_map.js" beforeDir="false" afterPath="$PROJECT_DIR$/satellite_map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sliding_overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sliding_overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.js" afterDir="false" />
     </list>
@@ -38,20 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Project.color&quot;: &quot;6b78ff&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Project.color": "6b78ff",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Физик 10/Documents/GitHub/moby/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -66,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662798878230</updated>
       <workItem from="1662798882630" duration="4697000" />
-      <workItem from="1662805491594" duration="15313000" />
+      <workItem from="1662805491594" duration="19588000" />
     </task>
     <task id="LOCAL-00001" summary="jj">
       <created>1662798991410</created>
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662820190816</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="jj">
+      <created>1662822111689</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662822111689</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

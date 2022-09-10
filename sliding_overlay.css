@@ -38,10 +38,10 @@
     width: 60%;
     display: flex;
     margin: 47px auto;
+    margin-bottom: 20px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 
@@ -56,6 +56,33 @@
 .sliding-overlay .sliding-overlay-wrapper .brief-channel div img {
     width: 100%;
     height: 100%;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .cover {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+    border-radius: 40px;
+    height: calc(100vw * 0.9);
+}
+
+.sliding-overlay .sliding-overlay-wrapper .cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .heading {
+    font-size: 33px;
+    margin-top: 20px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .date {
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .sliding-overlay .sliding-overlay-wrapper .brief-channel h3 {
@@ -73,22 +100,6 @@
 .sliding-overlay .sliding-overlay-wrapper #back-button p {
     margin-top: -2px;
     margin-left: -2px;
-}
-
-.sliding-overlay .sliding-overlay-wrapper .sliding-tabs .active {
-    font-weight: 600;
-    position: relative;
-}
-
-.sliding-overlay .sliding-overlay-wrapper .sliding-tabs .active::after {
-    content: "";
-    width: 100%;
-    height: 2.5px;
-    border-radius: 5px;
-    bottom: -3.5px;
-    left: 0;
-    background: #000;
-    position: absolute;
 }
 
 .sliding-overlay .sliding-overlay-wrapper .tab-content {
@@ -115,13 +126,16 @@
 
 .sliding-overlay .sliding-overlay-wrapper .tab-content .cards .card {
     width: 100%;
-    height: calc(100vw * 0.9);
-    border-radius: 40px;
-    margin-bottom: 40px;
     overflow: hidden;
     background: #f3f3f3;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    height: calc(100vw * 0.9);
     transition: .15s transform;
-    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
+}
+
+.sliding-overlay .sliding-overlay-wrapper .cover {
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
 }
 
 .sliding-overlay .sliding-overlay-wrapper .tab-content .cards .card:active {
@@ -132,4 +146,39 @@
     width: 100%;
     margin-top: -1px;
     height: calc(100% + 1px);
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content .comments {
+    margin-top: 20px;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content .comments .comment .header {
+    display: flex;
+    align-items: center;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content .comments .comment .header div {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #f3f3f3;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content .comments .comment .header img {
+    width: 100%;
+    height: 100%;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content .comments .comment .header p {
+    font-size: 29px;
+    overflow: hidden;
+    margin-left: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content .comments .comment p {
+    font-size: 25px;
+    margin-top: 14px;
 }

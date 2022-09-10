@@ -17,8 +17,6 @@ ymaps.ready(function () {
         })
 
     myPlacemark.events.add(["click"], (e) => {
-        console.log(e)
-
         open_bottom_popup()
     })
 
