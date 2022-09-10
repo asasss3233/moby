@@ -12,10 +12,3 @@ function animate_css(el, props, trans, callback = () => {}) {
 function set_root_var(name, value) {
     document.documentElement.style.setProperty(name, value)
 }
-
-for (let i = 0; i < document.querySelectorAll(".pseudo-active"); i++) {
-    document.querySelectorAll(".pseudo-active")[i].addEventListener("ontouchstart", (e) => {
-        e.preventDefault()
-        return true
-    }, false)
-}
