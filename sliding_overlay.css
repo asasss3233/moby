@@ -16,7 +16,6 @@
 #sliding-overlay #sliding-overlay-wrapper {
     width: 90%;
     margin-top: 23px;
-    overflow-y: auto;
     position: relative;
 }
 
