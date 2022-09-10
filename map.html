@@ -1,0 +1,83 @@
+<div id="bottom-popup-wrapper">
+  <div id="bottom-popup">
+    <div class="popup-wrapper">
+      <h2>Pink Floyd – The Wall</h2>
+      <div class="frames">
+        <div class="preview">
+          <p class="date">28.04.1980</p>
+          <p class="description">The Wall (с англ. – «Стена») — одиннадцатый студийный альбом британской прогрессив-рок-группы</p>
+        </div>
+        <div class="full">
+          <p class="date">28.04, через 2 дня, в 18:00</p>
+          <div class="slider">
+            <img src="/loc-images/pf1.png" alt="">
+            <img src="/loc-images/pf2.png" alt="">
+          </div>
+          <div class="channel" onclick="open_sliding_overlay_v1('/loc-images/logo.png', 'Pink Floyd', '3,27M подписчиков', 'Группа была основана в 1965 году однокурсниками по архитектурному факультету Лондонского политехнического института Ричардом Райтом, Роджером Уотерсом, Ником Мейсоном (ударные) и их другом из Кембриджа Сидом Барреттом (вокал, гитара). Первоначальное название «The Pink Floyd Sound» было придумано лидером группы и автором большинства текстов раннего периода — Барреттом.')">
+            <img src="/loc-images/logo.png" alt="">
+            <p>Pink Floyd – 3,27M</p>
+          </div>
+          <p class="description">The Wall — одиннадцатый студийный альбом британской прогрессив-рок-группы Pink Floyd. Был выпущен 30 ноября 1979 года на двух дисках. Это последний релиз группы, записанный в классическом составе: Дэвид Гилмор, Роджер Уотерс, Ник Мейсон и Ричард Райт. В поддержку альбома был организован помпезный гастрольный тур  со сложными театрализованными постановками.</p>
+          <div id="jumbo-button">
+            <p>Бронировать</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="scrollable-area">
+  <div id="satellite-map"></div>
+</div>
+
+<div class="sliding-overlay" id="channel-info">
+  <div class="sliding-overlay-wrapper">
+    <div class="back-button" onclick="close_sliding_overlay(document.getElementById('channel-info'))"><p>􀱍</p></div>
+    <div class="brief-channel">
+      <div><img src="" alt=""></div>
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="tab-content">
+      <h4>Описание</h4>
+      <p></p>
+      <h4>Мероприятия</h4>
+      <div class="cards">
+        <div class="card">
+          <img src="/loc-images/themoon.png" alt="">
+        </div>
+        <div class="card" onclick="open_sliding_overlay_v2('/loc-images/thewall.png', 'The Dark Side of The Moon', '28.04.1980', 'Самый успешный альбом группы, превративший Pink Floyd в явление мирового масштаба. Один из самых продаваемых альбомов в истории звукозаписи — общее число проданных экземпляров превышает 45 миллионов.')">
+          <img src="/loc-images/thewall.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="sliding-overlay" id="event-info">
+  <div class="sliding-overlay-wrapper">
+    <div class="back-button" onclick="close_sliding_overlay(document.getElementById('event-info'))"><p>􀱍</p></div>
+    <div class="cover">
+      <img src="/loc-images/themoon.png" alt="">
+    </div>
+    <h3 class="heading"></h3>
+    <p class="date"></p>
+    <div class="tab-content">
+      <h4>Описание</h4>
+      <p></p>
+      <h4>Отзывы</h4>
+      <div class="comments">
+        <div class="comment">
+          <div class="header">
+            <div>
+              <img src="/loc-images/sydbarret.png" alt="">
+            </div>
+            <p>Сид Баррет</p>
+          </div>
+          <p>Звучит, конечно, старомодно...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+satellite_map.js&bottom_popup.js&sliding_overlay.js
