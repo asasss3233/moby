@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a355d1b2-79f9-48fd-8720-ce85e1c4fe64" name="Changes" comment="jj">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliding_overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662798878230</updated>
-      <workItem from="1662798882630" duration="1157000" />
+      <workItem from="1662798882630" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="jj">
       <created>1662798991410</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662799896765</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jj">
+      <created>1662800055949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662800055949</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

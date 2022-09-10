@@ -1,8 +1,11 @@
 let overlays = 0
 
 function close_sliding_overlay(id) {
-    animate_css(document.querySelector(`.so-${id}`), [{transform: "translateX(100vw)"}])
-    overlays--
+    let el = document.querySelector(`.so-${id}`)
+    animate_css(el, [{transform: "translateX(100vw)"}], {duration: 200}, () => {
+        el.remove()
+        overlays--
+    })
 }
 
 function open_sliding_overlay(logo_url, channel_name, subscribers_amount) {
