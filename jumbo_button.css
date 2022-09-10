@@ -1,0 +1,11 @@
+#jumbo-button {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    height: 52px;
+    font-size: 21px;
+    border-radius: 22px;
+    align-items: center;
+    justify-content: center;
+    background: var(--button-gradient);
+}
