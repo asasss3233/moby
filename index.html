@@ -95,16 +95,6 @@
         <script src="bottom_popup.js" defer></script>
         <script src="sliding_overlay.js" defer></script>
 
-        <script>
-            ymaps.ready(init);
-            function init() {
-                let myMap = new ymaps.Map("satellite-map", {
-                    center: [55.76, 37.64],
-                    controls: [],
-                    zoom: 17
-                });
-                myMap.setType("yandex#satellite")
-            }
-        </script>
+        <script src="satellite_map.js"></script>
     </body>
 </html>

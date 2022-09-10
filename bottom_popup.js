@@ -17,7 +17,7 @@ function set_stable_position() {
     stable_position = bottom_popup_wrapper.getBoundingClientRect().top
 }
 
-function ignite_bottom_popup() {
+function open_bottom_popup() {
     if (!ignited) {
         ignited = true
         animate_css(bottom_popup_wrapper, [{transform: `translateY(${innerHeight - 230}px)`}], {
