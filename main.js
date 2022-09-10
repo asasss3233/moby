@@ -12,3 +12,9 @@ function animate_css(el, props, trans, callback = () => {}) {
 function set_root_var(name, value) {
     document.documentElement.style.setProperty(name, value)
 }
+
+function load_module(url) {
+    fetch(url).then((response) => response.text().then((data) => {
+        console.log(data)
+    }))
+}
