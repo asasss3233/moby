@@ -6,6 +6,8 @@ request_data("get_booking_event/" + user_id, (d) => {
             <p>${d["title"]}</p>
           </div>
         </div>`
+
+    document.getElementById("cards").innerHTML += el
 })
 
 init_selects()

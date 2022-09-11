@@ -7,7 +7,7 @@ ymaps.ready(function () {
     myMap = new ymaps.Map('satellite-map', {
             center: [56.751574, 37.573856],
             controls: [],
-            zoom: 1
+            zoom: 3
         }, {
             searchControlProvider: 'yandex#search'
         })
@@ -23,6 +23,7 @@ ymaps.ready(function () {
             })
 
             myPlacemark.events.add(["click"], (e) => {
+                console.log(events[i])
                 open_bottom_popup(events[i]["title"], events[i]["content"], events[i]["date"], events[i]["time"])
                 document.getElementById("satellite-map").style.pointerEvents = "none"
             })

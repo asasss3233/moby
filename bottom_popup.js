@@ -22,6 +22,7 @@ window.set_stable_position = () => {
 window.open_bottom_popup = (name, description, date, time) => {
     document.getElementById("event-name").innerText = name
     document.getElementById("event-date").innerText = date + ", в " + time
+    document.getElementById("event-description").innerText = description
     document.getElementById("event-channel-rating").innerText = 320 + " очков"
     if (!ignited) {
         ignited = true
