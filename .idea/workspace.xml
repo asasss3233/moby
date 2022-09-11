@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a355d1b2-79f9-48fd-8720-ce85e1c4fe64" name="Changes" comment="kavun">
+      <change afterPath="$PROJECT_DIR$/event_cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/select.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loc-images/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loc-images/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottom_popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/bottom_popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite_map.js" beforeDir="false" afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sliding_overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,6 +62,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,6 +77,11 @@
       <recent name="C:\Users\Физик 10\Documents\GitHub\moby\fonts" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="profile.css" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +92,7 @@
       <updated>1662798878230</updated>
       <workItem from="1662798882630" duration="4697000" />
       <workItem from="1662805491594" duration="34589000" />
-      <workItem from="1662876421762" duration="6100000" />
+      <workItem from="1662876421762" duration="11642000" />
     </task>
     <task id="LOCAL-00001" summary="jj">
       <created>1662798991410</created>
@@ -265,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662879875934</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="kavun">
+      <created>1662883774337</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662883774337</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

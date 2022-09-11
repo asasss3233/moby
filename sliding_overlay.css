@@ -126,11 +126,11 @@
     line-height: 1.3;
 }
 
-.sliding-overlay .sliding-overlay-wrapper .tab-content .cards {
+.sliding-overlay .sliding-overlay-wrapper .tab-content #cards {
     margin-top: 30px;
 }
 
-.sliding-overlay .sliding-overlay-wrapper .tab-content .cards .card {
+.sliding-overlay .sliding-overlay-wrapper .tab-content #cards .card {
     width: 100%;
     overflow: hidden;
     background: #f3f3f3;
@@ -138,20 +138,37 @@
     margin-bottom: 40px;
     height: calc(100vw * 0.9);
     transition: .15s transform;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .1);
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content #cards .card .header p {
+    margin-left: 40px;
+    margin-top: -3px;
+}
+
+.sliding-overlay .sliding-overlay-wrapper .tab-content #cards .card .header {
+    top: -60px;
+    width: 101%;
+    height: 62px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, .95);
 }
 
 .sliding-overlay .sliding-overlay-wrapper .cover {
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
 }
 
-.sliding-overlay .sliding-overlay-wrapper .tab-content .cards .card:active {
+.sliding-overlay .sliding-overlay-wrapper .tab-content #cards .card:active {
     transform: scale(0.96);
 }
 
-.sliding-overlay .sliding-overlay-wrapper .tab-content .cards .card img {
-    width: 100%;
-    margin-top: -1px;
-    height: calc(100% + 1px);
+.sliding-overlay .sliding-overlay-wrapper .tab-content #cards .card img {
+    width: 101%;
+    height: 99%;
+    border-radius: 40px;
 }
 
 .sliding-overlay .sliding-overlay-wrapper .tab-content .comments {

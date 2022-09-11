@@ -8,7 +8,7 @@
 
 .profile-wrapper .brief-channel {
     display: flex;
-    margin: 92px auto;
+    margin: 47px auto;
     margin-bottom: 20px;
     align-items: center;
     flex-direction: column;
@@ -105,17 +105,21 @@
     padding: 10px 16px;
 }
 
+
 .select-items {
-    top: calc(100% + 10px);
-    border-radius: 15px;
     left: 0;
     right: 0;
     z-index: 99;
+    height: 198px;
+    overflow-y: scroll;
     position: absolute;
     background: #f3f3f3;
+    border-radius: 15px;
+    top: calc(100% + 10px);
 }
 
 .select-hide {
+    height: 0;
     display: none;
 }
 

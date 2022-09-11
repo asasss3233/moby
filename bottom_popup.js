@@ -49,6 +49,7 @@ window.on_drag_end = () => {
                     scrollable.classList.remove("dimmed")
                     animate_css(bottom_popup_wrapper, [{transform: `translateY(${innerHeight}px)`}], {duration: transition * 1.5, easing: "cubic-bezier(0.22, 1, 0.36, 1)"}, set_stable_position)
                     ignited = false
+                    document.getElementById("satellite-map").style.pointerEvents = "auto"
                 }
                 bottom_popup_wrapper.style.overflowY = "hidden"
             } else {

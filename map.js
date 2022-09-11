@@ -18,6 +18,7 @@ ymaps.ready(function () {
 
     myPlacemark.events.add(["click"], (e) => {
         open_bottom_popup()
+        document.getElementById("satellite-map").style.pointerEvents = "none"
     })
 
 

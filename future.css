@@ -1,0 +1,21 @@
+.future-events-wrapper {
+    width: 90vw;
+    margin: 40px auto;
+}
+
+.future-events-wrapper .category-sort {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.future-events-wrapper #cards {
+    margin-top: 20px;
+}
+
+.future-events-wrapper #cards .card {
+    width: 100%;
+    height: calc(100vw * 0.9);
+    background: #f3f3f3;
+    border-radius: 40px;
+}
