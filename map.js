@@ -5,9 +5,9 @@ window.events = []
 
 ymaps.ready(function () {
     myMap = new ymaps.Map('satellite-map', {
-            center: [55.751574, 37.573856],
+            center: [56.751574, 37.573856],
             controls: [],
-            zoom: 5
+            zoom: 1
         }, {
             searchControlProvider: 'yandex#search'
         })
