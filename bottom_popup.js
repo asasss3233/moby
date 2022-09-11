@@ -19,7 +19,10 @@ window.set_stable_position = () => {
     stable_position = bottom_popup_wrapper.getBoundingClientRect().top
 }
 
-window.open_bottom_popup = () => {
+window.open_bottom_popup = (name, description, date, time) => {
+    document.getElementById("event-name").innerText = name
+    document.getElementById("event-date").innerText = date + ", в " + time
+    document.getElementById("event-channel-rating").innerText = 320 + " очков"
     if (!ignited) {
         ignited = true
         animate_css(bottom_popup_wrapper, [{transform: `translateY(${innerHeight - 230}px)`}], {
