@@ -7,7 +7,7 @@ ymaps.ready(function () {
     myMap = new ymaps.Map('satellite-map', {
             center: [55.751574, 37.573856],
             controls: [],
-            zoom: 17
+            zoom: 5
         }, {
             searchControlProvider: 'yandex#search'
         })
@@ -15,8 +15,7 @@ ymaps.ready(function () {
     request_data("/get_events", (d) => {
         events = d
         for (let i = 0; i < d.length; i++) {
-            let coords = [55.751574 + Math.random(), 37.573856 + Math.random()]
-            let myPlacemark = new ymaps.Placemark(coords, {}, {
+            let myPlacemark = new ymaps.Placemark(events[i]["place"], {}, {
                 iconLayout: 'default#image',
                 iconImageHref: '/loc-images/placemark.png',
                 iconImageSize: [324 * 0.4, 436 * 0.4],
