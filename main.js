@@ -2,6 +2,7 @@ let current_tab = ""
 let modular_content = document.getElementById("modular-content")
 
 let server_ip = "http://192.168.159.159:4000/"
+let user_id = sessionStorage.getItem("uuid")
 
 let categories = {
     "Выберите категорию": 0,
@@ -22,8 +23,8 @@ function request_data(method, success, fail = () => {}) {
     const request = new XMLHttpRequest();
     request.onload = function() {
         if (request.status === 200) {
-            console.log(request.responseText)
-            success(JSON.parse(String(request.responseText)))
+            let d = String(JSON.parse(request.response)).replaceAll("False", "false").replaceAll("True", "true").replaceAll("'", "\"")
+            success(JSON.parse(d))
         } else {
             fail()
         }

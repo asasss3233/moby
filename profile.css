@@ -126,3 +126,7 @@
 .select-items div:hover, .same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.profile-wrapper #cards {
+    margin-bottom: 150px;
+}

@@ -16,6 +16,12 @@
     font-family: -apple-system, BlinkMacSystemFont, "SFPro", "Helvetica Neue", sans-serif;
 }
 
+*::-webkit-scrollbar {
+    opacity: 0;
+    display: none;
+    background: transparent;
+}
+
 :root {
     --conic-gradient: conic-gradient(from 180deg at 50% 50%, #8A15E7 0deg, #D91A76 93.75deg, #CC11F0 181.87deg, #D91A76 303.75deg, #8A15E7 360deg);
     --button-gradient: conic-gradient(from 0deg at 50% 50%, #CC11F0 0deg, #8A15E7 80deg, #D91A76 220deg, #CC11F0 360deg);

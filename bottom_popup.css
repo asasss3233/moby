@@ -14,12 +14,6 @@
     transform: translateY(100vh);
 }
 
-#bottom-popup-wrapper::-webkit-scrollbar {
-    opacity: 0;
-    display: none;
-    background: transparent;
-}
-
 #bottom-popup-wrapper #bottom-popup {
     width: 100vw;
     display: flex;
@@ -94,12 +88,6 @@
     display: inline-flex;
     overflow: auto hidden;
     scrollbar-width: none;
-}
-
-#bottom-popup-wrapper #bottom-popup .popup-wrapper .frames .full .slider::-webkit-scrollbar {
-    opacity: 0;
-    display: none;
-    background: transparent;
 }
 
 #bottom-popup-wrapper #bottom-popup .popup-wrapper .frames .full .slider img:first-child {

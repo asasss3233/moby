@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a355d1b2-79f9-48fd-8720-ce85e1c4fe64" name="Changes" comment="kavun">
+    <list default="true" id="a355d1b2-79f9-48fd-8720-ce85e1c4fe64" name="Changes" comment="b0b">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bottom_popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/bottom_popup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/event_cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/event_cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.js" beforeDir="false" afterPath="$PROJECT_DIR$/future.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sliding_overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliding_overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,7 @@
       <updated>1662798878230</updated>
       <workItem from="1662798882630" duration="4697000" />
       <workItem from="1662805491594" duration="34589000" />
-      <workItem from="1662876421762" duration="17280000" />
+      <workItem from="1662876421762" duration="25224000" />
     </task>
     <task id="LOCAL-00001" summary="jj">
       <created>1662798991410</created>
@@ -298,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662890436282</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="b0b">
+      <created>1662896693781</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662896693781</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +333,7 @@
     <MESSAGE value="jj" />
     <MESSAGE value="I'M CUUUUUUUUUUUULMINATING" />
     <MESSAGE value="kavun" />
-    <option name="LAST_COMMIT_MESSAGE" value="kavun" />
+    <MESSAGE value="b0b" />
+    <option name="LAST_COMMIT_MESSAGE" value="b0b" />
   </component>
 </project>
