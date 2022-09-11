@@ -7,7 +7,7 @@
     <h4>Профиль</h4>
     <p class="description"></p>
     <h4>Мои мероприятия</h4>
-    <button onclick="open_sliding_overlay_v2('/loc-images/placeholder.png', 'Название мероприятия', '31.12.1990', 'Нажмите, чтобы редактировать описание мероприятия', [], 'new-event')">􀅼 Создать новое</button>
+    <button onclick="open_sliding_overlay_v2('/loc-images/placeholder.png', 'Название мероприятия', '31.12.1990, 18:00', 'Нажмите, чтобы редактировать описание мероприятия', [], 'new-event')">􀅼 Создать новое</button>
     <div class="cards">
 
     </div>
@@ -19,11 +19,27 @@
         <div class="cover">
             <img alt="">
         </div>
-        <h3 class="heading"></h3>
-        <p class="date"></p>
+        <h3 class="heading" contenteditable></h3>
+        <p class="date" contenteditable></p>
         <div class="tab-content">
+            <div class="custom-select">
+                <select>
+                    <option value="0">Выберите категорию</option>
+                    <option value="1">Спорт</option>
+                    <option value="2">Киберспорт</option>
+                    <option value="3">Наука</option>
+                    <option value="4">Фитнес</option>
+                    <option value="5">Концерт</option>
+                    <option value="6">Развлечения</option>
+                    <option value="7">Квест</option>
+                    <option value="8">Кино</option>
+                    <option value="9">Искусство</option>
+                    <option value="10">Мультфильмы</option>
+                    <option value="11">Другое</option>
+                </select>
+            </div>
             <h4 style="display:none"></h4>
-            <p></p>
+            <p contenteditable>Нажмите, чтобы редактировать описание мероприятия</p>
         </div>
         <div id="jumbo-button">
             Создать!

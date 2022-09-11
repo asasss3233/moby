@@ -13,7 +13,7 @@ ymaps.ready(function () {
             iconLayout: 'default#image',
             iconImageHref: '/loc-images/placemark.png',
             iconImageSize: [324 * 0.4, 436 * 0.4],
-            iconImageOffset: [0, -50]
+            iconImageOffset: [-162*0.4, -341*0.4]
         })
 
     myPlacemark.events.add(["click"], (e) => {

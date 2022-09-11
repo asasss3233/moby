@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a355d1b2-79f9-48fd-8720-ce85e1c4fe64" name="Changes" comment="kavun">
-      <change afterPath="$PROJECT_DIR$/loc-images/placeholder.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loc-images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loc-images/map.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sliding_overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite_map.js" beforeDir="false" afterPath="$PROJECT_DIR$/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliding_overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_overlay.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,7 @@
       <updated>1662798878230</updated>
       <workItem from="1662798882630" duration="4697000" />
       <workItem from="1662805491594" duration="34589000" />
-      <workItem from="1662876421762" duration="2360000" />
+      <workItem from="1662876421762" duration="6100000" />
     </task>
     <task id="LOCAL-00001" summary="jj">
       <created>1662798991410</created>
@@ -254,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662876455972</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="kavun">
+      <created>1662879875934</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1662879875934</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

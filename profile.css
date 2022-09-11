@@ -62,3 +62,63 @@
 .profile-wrapper .description {
     font-size: 22px;
 }
+
+[contenteditable]:focus {
+    outline-offset: 4px;
+    outline: 1px dashed rgba(80, 126, 217, 0.2);
+}
+
+.custom-select {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.custom-select select {
+    display: none;
+}
+
+.select-selected {
+    border-radius: 15px;
+    background: #f3f3f3;
+}
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 22px;
+    right: 19px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #8A15E7 transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+    top: 13px;
+    border-color: transparent transparent #8A15E7 transparent;
+}
+
+.select-items div,.select-selected {
+    color: #000;
+    font-size: 19px;
+    padding: 10px 16px;
+}
+
+.select-items {
+    top: calc(100% + 10px);
+    border-radius: 15px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    position: absolute;
+    background: #f3f3f3;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
