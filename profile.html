@@ -19,11 +19,11 @@
         <div class="cover">
             <img alt="">
         </div>
-        <h3 class="heading" contenteditable></h3>
-        <p class="date" contenteditable></p>
+        <h3 class="heading" id="event_name" contenteditable></h3>
+        <p class="date" id="date" contenteditable></p>
         <div class="tab-content">
             <div class="custom-select">
-                <select>
+                <select id="category">
                     <option value="0">Выберите категорию</option>
                     <option value="1">Спорт</option>
                     <option value="2">Киберспорт</option>
@@ -38,8 +38,9 @@
                     <option value="11">Другое</option>
                 </select>
             </div>
-            <h4 style="display:none"></h4>
-            <p contenteditable>Нажмите, чтобы редактировать описание мероприятия</p>
+<!--            <h4 style="display:none"></h4>-->
+            <p contenteditable id="description">Нажмите, чтобы редактировать описание мероприятия</p>
+            <p style="font-size: 20px; margin-top: 15px;margin-bottom: 15px;font-variant: all-small-caps; text-decoration: underline" id="location" contenteditable>г. Москва, ул. Пушкина, д. 30</p>
         </div>
         <div id="jumbo-button">
             Создать!
